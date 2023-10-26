@@ -4,7 +4,7 @@ function clock() {
   let hour = time.getHours();
   let min = time.getMinutes();
 
-  let currentTime = hour + ":" + min
+  let currentTime = hour + ":" + min 
 
   document.getElementById("time").innerHTML = currentTime;
 }
